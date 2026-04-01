@@ -1,0 +1,16 @@
+node_modules
+npm-debug.log
+docker-compose.yml
+.git
+.gitignore
+.env.example
+.editorconfig
+README.md
+.vscode
+.DS_Store
+*.log
+storage/logs
+storage/app/dompdf_temp/*
+!storage/app/dompdf_temp/.gitkeep
+storage/fonts/*
+!storage/fonts/.gitkeep
