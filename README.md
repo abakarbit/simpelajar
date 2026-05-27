@@ -70,7 +70,6 @@ SimpeLajar menyelesaikan masalah di atas dengan menyediakan satu platform terpus
 |---|---|
 | Laravel 12 sebagai framework utama | Convention-over-configuration, Eloquent ORM, Blade templating, dan ekosistem paket yang matang mempercepat development. |
 | MySQL sebagai database | Relasi antar entitas bersifat kompleks dan terstruktur; MySQL memberikan performa JOIN yang konsisten dan dukungan constraint FK penuh. |
-| Alpine.js (bukan React/Vue) | Interaktivitas UI pada scope proyek ini cukup ditangani oleh Alpine.js yang ringan dan hidup di dalam Blade template. |
 | Maatwebsite/Excel untuk ekspor | Abstraksi yang matang di atas PhpSpreadsheet; mendukung styling, multi-sheet, dan stream export besar tanpa OOM. |
 | Docker + Nginx untuk deployment | Mengeliminasi dependency hell; memudahkan reproduksi environment di mesin manapun. |
 
@@ -831,12 +830,12 @@ Gunakan format commit [Conventional Commits](https://www.conventionalcommits.org
 | | |
 |---|---|
 | **Project** | SimpeLajar — Sistem Manajemen Dokumen Mutu Perkuliahan |
-| **Repository** | [github.com/your-org/simpelajar](https://github.com/your-org/simpelajar) |
-| **Issues** | [github.com/your-org/simpelajar/issues](https://github.com/your-org/simpelajar/issues) |
+| **Repository** | [github.com/abakarbit/simpelajar](https://github.com/abakarbit/simpelajar) |
+| **Issues** | [github.com/abakarbit/simpelajar/issues](https://github.com/abakarbit/simpelajar/issues) |
 
 ---
 
 <div align="center">
-  <sub>Built with Laravel 12 · PHP 8.2 · Tailwind CSS · Alpine.js</sub>
+  <sub>Built with Laravel 12 · PHP 8.2 </sub>
 </div>
 
