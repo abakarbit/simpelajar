@@ -20,14 +20,14 @@
                     <div class="mb-3">
                         <label class="form-label fw-semibold">Kode Mata Kuliah <span class="text-danger">*</span></label>
                         <input type="text" name="kode_mk" class="form-control @error('kode_mk') is-invalid @enderror"
-                               value="{{ old('kode_mk') }}" placeholder="Contoh: TIF301" required>
+                               value="{{ old('kode_mk') }}" placeholder="Contoh: TBS25-12001" required>
                         @error('kode_mk')<div class="invalid-feedback">{{ $message }}</div>@enderror
                     </div>
 
                     <div class="mb-4">
                         <label class="form-label fw-semibold">Nama Mata Kuliah <span class="text-danger">*</span></label>
                         <input type="text" name="nama_mk" class="form-control @error('nama_mk') is-invalid @enderror"
-                               value="{{ old('nama_mk') }}" placeholder="Contoh: Pemrograman Web" required>
+                               value="{{ old('nama_mk') }}" placeholder="Contoh: Fisika Dasar 2" required>
                         @error('nama_mk')<div class="invalid-feedback">{{ $message }}</div>@enderror
                     </div>
 

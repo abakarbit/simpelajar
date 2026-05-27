@@ -41,7 +41,7 @@
             </div>
         </div>
     </div>
-    <div class="col-6 col-lg-3">
+    <div class="col-6 col-lg-3" style="display: none">
         <div class="card h-100">
             <div class="card-body">
                 <div class="d-flex justify-content-between">

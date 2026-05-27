@@ -41,7 +41,7 @@
             </div>
         </div>
     </div>
-    <div class="col-6 col-md-3">
+    <div class="col-6 col-md-3" style="display: none">
         <div class="card stat-card border-warning h-100">
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-start">
